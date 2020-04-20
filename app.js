@@ -51,7 +51,7 @@ app.get('/', (req, res) => {
     // let day = date.getDay();
 })
 
-app.listen(3000, () => {
+app.listen(process.env.PORT, () => {
     console.log('We making a to do list!')
 })
 
